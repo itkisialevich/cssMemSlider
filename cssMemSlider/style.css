@@ -149,3 +149,22 @@ span::selection {
 #slide5:checked ~ #controls label:nth-child(5) {
   background: #e4b61a;
 }
+
+/* ----- media ----- */
+
+@media (max-width: 767px) {
+  .wrapper {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+  #controls {
+    align-self: center;
+    order: 2;
+    margin-bottom: 30px;
+  }
+  .title-container {
+    order: 3;
+    margin-bottom: 30px;
+  }
+}
