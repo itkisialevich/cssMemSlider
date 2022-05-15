@@ -194,6 +194,18 @@ span::selection {
   html {
     font-size: 0.7rem;
   }
+  #controls {
+    width: 8.75rem;
+  }
+
+  #controls label {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
 }
 
 @media (max-width: 31.25rem) {
